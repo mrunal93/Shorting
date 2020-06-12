@@ -7,5 +7,6 @@ read -p "Enter the 3rd number" c
 
 eqa1=$(($((a + b)) * c ))
 eqa2=$(($(( $a * $b)) + $c ))
-eqa3=$(($(( $c + $a)) / $b ))
+eqa3=$(( $c + $(( $a / $b )) ))
+eqa4=$(($(($a % $b))  + $c ))
 
