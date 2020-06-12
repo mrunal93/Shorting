@@ -6,3 +6,5 @@ read -p "Enter the 2nd Number" b
 read -p "Enter the 3rd number" c
 
 eqa1=$(($((a + b)) * c ))
+eqa2=$(($(($a * $b)) + $c ))
+
