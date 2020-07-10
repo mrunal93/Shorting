@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash 
 echo "Shorting Arithmetic Computation Problem"
 declare store
 cunt=1
